@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerList title="Base Layers">
+    <Layer className="core.routegis.engine.layers.StarsLayer" title="Stars" actuate="onLoad"/>
+    <Layer className="core.routegis.engine.layers.SkyGradientLayer" title="Sky" actuate="onLoad"/>
+    <Layer className="core.routegis.engine.layers.Earth.BMNGOneImage" title="Earth Image" actuate="onLoad"/>
+    <Layer href="config/Earth/BMNG256.xml" title="Blue Marble" actuate="onLoad"/>
+</LayerList>

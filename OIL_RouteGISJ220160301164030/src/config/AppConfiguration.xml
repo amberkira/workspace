@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration version="1">
+    <Feature className="com.routegis.applications.worldwindow.core.ToolBarImpl"/>
+    <Feature className="com.routegis.applications.worldwindow.core.WWPanelImpl"/>
+    <Feature className="com.routegis.applications.worldwindow.core.AppPanelImpl"/>
+    <Feature className="com.routegis.applications.worldwindow.core.AppFrameImpl"/>
+    <Feature className="com.routegis.applications.worldwindow.core.ExternalLinkController"/>
+    <Feature className="com.routegis.applications.worldwindow.core.IconController"/>
+    <Feature className="com.routegis.applications.worldwindow.core.ToolTipController"/>
+    <Feature className="com.routegis.applications.worldwindow.core.InfoPanelController"/>
+    <Feature className="com.routegis.applications.worldwindow.features.NetworkActivitySignal"/>
+    <Feature className="com.routegis.applications.worldwindow.features.swinglayermanager.ControlsPanelImpl"/>
+    <Feature className="com.routegis.applications.worldwindow.features.StatusPanelImpl"/>
+    <Feature className="com.routegis.applications.worldwindow.features.ScaleBar"/>
+    <Feature className="com.routegis.applications.worldwindow.features.Compass"/>
+    <Feature className="com.routegis.applications.worldwindow.features.swinglayermanager.LayerManagerDialog"/>
+    <Feature className="com.routegis.applications.worldwindow.features.CoordinatesDisplay"/>
+    <Feature className="com.routegis.applications.worldwindow.features.Crosshair"/>
+    <Feature className="com.routegis.applications.worldwindow.features.GazetteerPanel"/>
+    <Feature className="com.routegis.applications.worldwindow.features.swinglayermanager.ActiveLayersPanel"/>
+    <Feature className="com.routegis.applications.worldwindow.features.swinglayermanager.LayerManagerPanel"/>
+    <Feature className="com.routegis.applications.worldwindow.features.WMSDialog"/>
+    <Feature className="com.routegis.applications.worldwindow.features.Navigation"/>
+    <Feature className="com.routegis.applications.worldwindow.features.Graticule"/>
+    <Feature className="com.routegis.applications.worldwindow.features.LatLonGraticule"/>
+    <Feature className="com.routegis.applications.worldwindow.features.UTMGraticule"/>
+</Configuration>

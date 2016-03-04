@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<dataFileStore>
+    <readLocations>
+        <location property="com.routegis.platform.alluser.store" wwDir="RouteGISJavaData"/>
+        <location property="com.routegis.platform.user.store"    wwDir="RouteGISJavaData"/>
+        <location property="user.dir"  wwDir="RouteGISJavaData"/>
+        <location property="user.home" wwDir="RouteGISJavaData"/>
+        <location property="com.routegis.platform.alluser.store" wwDir="RouteGISJavaInstalled" isInstall="true" isMarkWhenUsed="true"/>
+        <location property="com.routegis.platform.user.store"    wwDir="RouteGISJavaInstalled" isInstall="true" isMarkWhenUsed="true"/>
+        <location property="user.dir"  wwDir="RouteGISJavaInstalled" isInstall="true" isMarkWhenUsed="true"/>
+        <location property="user.home" wwDir="RouteGISJavaInstalled" isInstall="true" isMarkWhenUsed="true"/>
+    </readLocations>
+    <writeLocations>
+        <location property="com.routegis.platform.alluser.store" wwDir="RouteGISJavaData" create="true"/>
+        <location property="com.routegis.platform.user.store"    wwDir="RouteGISJavaData" create="true"/>
+        <location property="java.io.tmpdir" wwDir="RouteGISJavaData" create="true"/>
+    </writeLocations>
+</dataFileStore>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorldWindConfiguration version="1">
+    <LayerList href="config/InitialLayerConfiguration.xml"/>
+    <Property name="com.routegis.applications.worldwindow.ApplicationDisplayName" value="RouteGIS Java Window"/>
+    <Property name="com.routegis.applications.worldwindow.ToolBarIconSizeProperty" value="52"/>
+</WorldWindConfiguration>

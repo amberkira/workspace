@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerList>
+    <Layer className="core.routegis.engine.layers.StarsLayer">
+        <Property name="Name" value="Stars"/>
+    </Layer>
+    <Layer className="core.routegis.engine.layers.SkyGradientLayer"/>
+    <Layer className="core.routegis.engine.layers.ScalebarLayer"/>
+    <Layer className="core.routegis.engine.layers.CompassLayer"/>
+    <Layer className="core.routegis.engine.layers.Earth.OneImage" />
+</LayerList>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="classes" path="src"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/gdal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/gluegen-rt-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/gluegen-rt-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/jogl-all.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/jogl-all-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/jogl-all-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/jogl-all-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/jogl-all-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/sqljdbc41.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/新建文件夹/OIL_RouteGISJ220160301164030/lib/vpf-symbols.jar"/>
+	<classpathentry kind="lib" path="E:/javaWorkplace/RouteGISJ2.jar"/>
+	<classpathentry kind="lib" path="E:/javaWorkplace/RouteGISJCore.jar"/>
+	<classpathentry kind="lib" path="E:/javaWorkplace/RouteGISSQL.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

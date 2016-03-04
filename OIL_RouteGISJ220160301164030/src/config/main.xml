@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration version="1">
+    <LayerList href="config/Layers.xml"/>
+    
+    <Property name="com.routegis.avkey.ModelClassName" 
+        value="core.routegis.engine.BasicModel"/>
+    
+    <Property name="com.routegis.avkey.GlobeClassName"
+        value="core.routegis.engine.globes.Earth"/>
+    
+    <Property name="com.routegis.avkey.EarthElevationModelConfigFile"
+        value="config/Earth/CustomElevationModel.xml"/>
+    
+    <Property name="com.routegis.avkey.InitialLatitude" value="38"/>
+    <Property name="com.routegis.avkey.InitialAltitude" value="19.07e6"/>
+    
+    <Property name="com.routegis.avkey.ViewClassName" 
+        value="core.routegis.engine.view.orbit.BasicOrbitView"/>
+    
+    <Property name="com.routegis.avkey.ViewInputHandlerClassName"
+        value="core.routegis.engine.view.orbit.OrbitViewInputHandler"/>
+    
+    <Property name="com.routegis.avkey.InputHandlerClassName" 
+        value="core.routegis.engine.awt.AWTInputHandler"/>
+    
+    <Property name="com.routegis.avkey.LoggerName" 
+        value="core.routegis.engine"/>
+    
+    <Property name="com.routegis.avkey.WorldWindowClassName"
+        value="core.routegis.engine.WorldWindowGLAutoDrawable"/>
+    
+    <Property name="com.routegis.avkey.ElevationModelFactory"
+        value="core.routegis.engine.terrain.BasicElevationModelFactory"/>
+    
+    <Property name="com.routegis.avkey.LayerFactory" 
+        value="core.routegis.engine.layers.BasicLayerFactory"/>
+    
+    <Property name="com.routegis.avkey.WebViewFactory"
+        value="core.routegis.engine.util.webview.BasicWebViewFactory"/>
+    
+    <Property name="com.routegis.avkey.TessellatorClassName"
+        value="core.routegis.engine.terrain.RectangularTessellator"/>
+    
+    <Property name="com.routegis.avkey.MemoryCacheSetClassName"
+        value="core.routegis.engine.cache.BasicMemoryCacheSet"/>
+    
+    <Property name="com.routegis.avkey.SessionCacheClassName" 
+        value="core.routegis.engine.cache.BasicSessionCache"/>
+    
+    <Property name="com.routegis.avkey.RetrievalServiceClassName"
+        value="core.routegis.engine.retrieve.BasicRetrievalService"/>
+   
+    <Property name="com.routegis.avkey.SceneControllerClassName"
+        value="core.routegis.engine.StereoOptionSceneController"/>
+    
+    <Property name="com.routegis.avkey.NetworkStatusClassName"
+        value="core.routegis.engine.util.BasicNetworkStatus"/>
+    
+    <Property name="core.routegis.engine.render.PointPlacemarkAttributes.DefaultImagePath"
+        value="images/pushpins/plain-yellow.png"/>
+    
+    <Property name="core.routegis.engine.render.PointPlacemarkAttributes.DefaultLabelFont"
+        value="黑体-BOLD-14"/>
+
+    <Property name="com.routegis.avkey.NetworkStatusTestSites"
+        value="baidu.com, microsoft.com, yahoo.com"/>
+    
+    <Property name="com.routegis.avkey.TaskServiceClassName" 
+        value="core.routegis.engine.util.ThreadedTaskService"/>
+    
+    <Property name="com.routegis.avkey.DataFileStoreClassName"
+        value="core.routegis.engine.cache.BasicDataFileStore"/>
+    
+    <Property name="com.routegis.avkey.DataRasterReaderFactoryClassName"
+        value="core.routegis.engine.data.BasicDataRasterReaderFactory"/>
+    
+    <Property name="com.routegis.avkey.DataFileStoreConfigurationFileName" 
+        value="config/DataFileStore.xml"/>
+    
+    <Property name="com.routegis.avkey.WorldMapImagePath" 
+        value="images/earth-map-512x256.dds"/>
+    
+    <Property name="com.RouteGIS.StarsLayer.StarsFileName" 
+        value="config/Hipparcos_Stars_Mag6x5044.dat"/>
+    
+
+    <Property name="com.routegis.avkey.RetrievalPoolSize" value="4"/>
+    <Property name="com.routegis.avkey.RetrievalQueueSize" value="200"/>
+    <Property name="com.routegis.avkey.RetrievalStaleRequestLimit" value="9000"/>
+    <Property name="com.routegis.avkey.TaskPoolSize" value="4"/>
+    <Property name="com.routegis.avkey.TaskQueueSize" value="20"/>
+    <Property name="com.routegis.avkey.ScheduledTaskPoolSize" value="1"/>
+    <Property name="com.routegis.avkey.VerticalExaggeration" value="3"/>
+    <Property name="com.routegis.avkey.URLConnectTimeout" value="8000"/>
+    <Property name="com.routegis.avkey.URLReadTimeout" value="10000"/>
+    <Property name="com.routegis.avkey.TextureCacheSize" value="500000000"/>
+    <Property name="com.routegis.avkey.ElevationTileCacheSize" value="20000000"/>
+    <Property name="com.routegis.avkey.ElevationExtremesLookupCacheSize" value="2000000"/>
+    <Property name="com.routegis.avkey.SectorGeometryCacheSize" value="10000000"/>
+    <Property name="com.routegis.avkey.TextureTileCacheSize" value="10000000"/>
+    <Property name="com.routegis.avkey.PlacenameLayerCacheSize" value="4000000"/>
+    <Property name="com.routegis.avkey.AirspaceGeometryCacheSize" value="32000000"/>
+    <Property name="com.routegis.avkey.VBOUsage" value="true"/>
+    <Property name="com.routegis.avkey.VBOThreshold" value="30"/>
+    <Property name="com.routegis.avkey.OfflineMode" value="false"/>
+    <Property name="com.routegis.avkey.RectangularTessellatorMaxLevel" value="30"/>
+    <Property name="gov.nasa.worldwind.StereoFocusAngle" value="1.6"/>
+    <Property name="com.routegis.avkey.ForceRedrawOnMousePressed" value="f"/>
+    
+    <Property name="com.routegis.avkey.MilStd2525IconRetrieverPath"
+              value="http://www.routegis.com/milstd2525c/rev1/"/>
+</Configuration>
